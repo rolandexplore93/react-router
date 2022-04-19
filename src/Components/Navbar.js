@@ -13,11 +13,12 @@ export const Navbar = () => {
         }
     }
   return (
-    <nav>
+    <nav className='primary-nav'>
         {/* Link component renders an anchor element */}
         {/* Add style prop to each component and set it to an arrow function */}
         <NavLink style={StyleActiveNavbar} to='/'>Home</NavLink>
         <NavLink style={StyleActiveNavbar} to='/about'>About</NavLink>
+        <NavLink style={StyleActiveNavbar} to='/products'>Products</NavLink>
     </nav>
   )
 }

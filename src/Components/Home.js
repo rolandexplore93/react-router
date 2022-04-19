@@ -9,6 +9,7 @@ export const Home = () => {
         <div>Home</div>
         <button onClick={() => navigate('order-summary')}>Place Order</button>
         {/* <button onClick={() => navigate('order-summary', {replace: true})}>Place Order</button> */}
+        <button onClick={() => navigate('users')}>Users page</button>
     </>
   )
 }
