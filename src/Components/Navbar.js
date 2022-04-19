@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
 
+    // CSS into JS solution can also be used to style the active link
     // NavLink component will set a property called isActive (true or false) which can be destructured from the function parameter
     const StyleActiveNavbar = ({isActive}) => {
         return {
@@ -20,5 +21,3 @@ export const Navbar = () => {
     </nav>
   )
 }
-
-// CSS into JS solution can also be used to style the active link
